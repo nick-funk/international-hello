@@ -1,0 +1,16 @@
+.greeting {
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    position: absolute;
+    width: auto;
+    height: 100px;
+
+    background-color: transparent;
+
+    text-align: center;
+    font-size: xx-large;
+}
