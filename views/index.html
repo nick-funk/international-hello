@@ -3,7 +3,11 @@
         {{bundle:styles/bundles/default}}
     </head>
     <body>
-        <div class="greeting" id="content">Hello, World!</div>
+        <div id="content">
+            <div id="gradient" class="gradient">
+                <div id="greeting" class="greeting" data-bind="text: currentGreeting()"></div>
+            </div>
+        </div>
 
         {{bundle:scripts/bundles/default}}
     </body>
